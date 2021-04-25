@@ -6,13 +6,20 @@
 
 
 html {
-  font-family: 'Rubik', sans-serif;
+  font-family: $default-font;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   font-size: 18px;
   line-height: 21.33px;
 }
 
 
-h3,h3 {
+h3,
+h3 {
   color: black;
   margin: 0;
   padding: 0;

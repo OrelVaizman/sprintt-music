@@ -2,4 +2,8 @@
 
 .home {
         background-color: $default-page-bgc;
+
+        &.container {
+                padding: rem(120px) rem(145px) rem(25px) rem(84px);
+        }
 }

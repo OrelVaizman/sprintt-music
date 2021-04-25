@@ -1,0 +1,48 @@
+@import "./src/styles/setup";
+
+.playlists-carousel {
+        max-width: 1255px;
+        overflow-x: hidden;
+
+        .title {
+                font-size: 28px;
+                line-height: 33.18px;
+                margin-bottom: rem(32px);
+        }
+
+        .playlists-list {
+                width: 100%;
+                position: relative;
+                transition-property: left;
+                transition-duration: 0.7s;
+
+                &>*:not(last-child) {
+                        margin-right: rem(63px);
+                }
+
+                &.end {
+                        left: calc(-104.6%);
+                }
+
+                &.start {
+                        left: 0;
+                }
+        }
+
+        .carousel-controller {
+                cursor: pointer;
+                font-size: 30px;
+                width: 48.5px;
+                position: absolute;
+                top: 2;
+                right: 0;
+
+                .active {
+                        color: black;
+                }
+
+                .inactive {
+                        color: grey;
+                }
+        }
+}

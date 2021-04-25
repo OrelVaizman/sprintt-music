@@ -1,0 +1,20 @@
+@import "./src/styles/setup";
+
+.playlist {
+        &>*:not(:last-child) {
+                margin-bottom: rem(16px);
+        }
+
+        .playlist-img {
+                height: 200px;
+                width: 200px;
+                border-radius: 10px;
+        }
+
+        .playlist-desc {
+                line-height: 16.59px;
+                font-size: 14px;
+                color: #646464;
+        }
+}
+

@@ -9,6 +9,7 @@
                         margin-bottom: rem(8px);
                         width: 109px;
                         height: 60px;
+                        object-fit: cover;
                 }
 
                 background-color: inherit;
@@ -22,7 +23,7 @@
                 }
                 .nav-item {
                         padding: rem(15px) rem(20px);
-
+font-weight: lighter;
                         &.selected {
                                 background-color:$nav-hover;
                                 border-radius: 10px;
