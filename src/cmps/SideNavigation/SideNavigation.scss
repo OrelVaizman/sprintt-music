@@ -1,0 +1,38 @@
+@import "./src/styles/setup";
+
+.side-navigation-container {
+        padding: rem(50px) rem(35px) 10px rem(25px);
+
+        .side-navigation {
+                .logo {
+                        margin-left: rem(26px);
+                        margin-bottom: rem(8px);
+                        width: 109px;
+                        height: 60px;
+                }
+
+                background-color: inherit;
+                height: 100%;
+                width: 100%;
+        }
+
+        .navigation-list {
+                li{
+                        padding: 2px;
+                }
+                .nav-item {
+                        padding: rem(15px) rem(20px);
+
+                        &.selected {
+                                background-color:$nav-hover;
+                                border-radius: 10px;
+                        }
+
+                        .nav-icon {
+                                margin-right: rem(23px);
+                                width: rem(20.18px);
+                                height: rem(21.6px);
+                        }
+                }
+        }
+}
